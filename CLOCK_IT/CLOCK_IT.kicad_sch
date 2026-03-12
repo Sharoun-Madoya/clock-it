@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 110.49 54.61)
+		(at 39.37 31.75)
 		(size 27.94 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "25a0942f-4692-4437-8e26-71d966c353a5")
 		(property "Sheetname" "MCU"
-			(at 110.49 53.8984 0)
+			(at 39.37 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 110.49 81.8646 0)
+			(at 39.37 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,6 +43,48 @@
 			(project "CLOCK_IT"
 				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 31.75)
+		(size 26.67 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c43dbd9d-2d14-4c14-969a-6780f09f4994")
+		(property "Sheetname" "SD card"
+			(at 100.33 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD.kicad_sch"
+			(at 100.33 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9"
+					(page "3")
 				)
 			)
 		)
