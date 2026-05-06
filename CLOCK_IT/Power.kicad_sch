@@ -2000,6 +2000,10 @@
 		(color 0 0 0 0)
 		(uuid "ed80262b-3b79-4329-85df-dca2ec67a7bc")
 	)
+	(no_connect
+		(at 153.67 83.82)
+		(uuid "4121ea8d-4b76-49c0-bb3e-96fe838706a8")
+	)
 	(wire
 		(pts
 			(xy 80.01 41.91) (xy 85.09 41.91)
@@ -2702,6 +2706,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 86.36) (xy 160.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3727db-67c2-489a-bac4-522fa5900265")
+	)
+	(wire
+		(pts
 			(xy 69.85 41.91) (xy 69.85 38.1)
 		)
 		(stroke
@@ -2759,72 +2773,6 @@
 			(justify right bottom)
 		)
 		(uuid "58138ca0-9f6f-425a-828b-d926cdca6a42")
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 182.88 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19a7fd20-f079-493f-a3c5-9b200be86a59")
-		(property "Reference" "#PWR057"
-			(at 182.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 182.88 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 182.88 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f7853e7-99a4-494f-afba-a1bbd7f225e7")
-		)
-		(instances
-			(project "CLOCK_IT"
-				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3228,6 +3176,71 @@
 	)
 	(symbol
 		(lib_id "power:VAA")
+		(at 80.01 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49482af5-a83d-46e1-8181-845cd018304c")
+		(property "Reference" "#PWR051"
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Cam_3.3V"
+			(at 80.01 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a6e38f7-0ae2-4f47-9cd0-73ad59c60e2e")
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VAA")
 		(at 88.9 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3287,6 +3300,71 @@
 			(project "CLOCK_IT"
 				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 160.02 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b29acbe-4c39-4dfc-ade5-e102fc961925")
+		(property "Reference" "#PWR047"
+			(at 160.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4f3e52e-749f-4ba9-b5d5-c0ad7bed8917")
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3887,6 +3965,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VAA")
+		(at 182.88 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d14e0ec-15f3-4951-9b5c-6892c59f7021")
+		(property "Reference" "#PWR056"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "MCU 3V3"
+			(at 182.626 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VAA\""
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "654ba0e3-f647-4c45-a046-3cf7f48d4a3a")
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 77.47 91.44 90)
 		(unit 1)
@@ -4227,71 +4370,6 @@
 			(project ""
 				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 80.01 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e11ea52-9117-4df4-8092-49241f52bc6f")
-		(property "Reference" "#PWR056"
-			(at 80.01 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 80.01 76.708 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75866893-9dec-4e8e-8ae2-597a54b1e45a")
-		)
-		(instances
-			(project "CLOCK_IT"
-				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
