@@ -4948,7 +4948,7 @@
 		)
 		(uuid "b1ce47ca-4523-45a0-8271-2c5cfbacaaa7")
 	)
-	(label "SDA5V"
+	(label "SDA_5V"
 		(at 257.81 82.55 0)
 		(effects
 			(font
@@ -9344,7 +9344,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "32.768kHz"
 			(at 220.98 46.99 0)
 			(effects
 				(font
