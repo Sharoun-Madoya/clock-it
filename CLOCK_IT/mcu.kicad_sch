@@ -4114,16 +4114,6 @@
 		)
 		(uuid "b4ff8ceb-30bf-4dca-97f0-566d6a9a023b")
 	)
-	(label "SCL_I2C"
-		(at 163.83 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b7859037-d3a5-4ea9-a3c9-a656bfaf1c8d")
-	)
 	(label "SCL_I2S"
 		(at 163.83 90.17 180)
 		(effects
@@ -4144,16 +4134,6 @@
 		)
 		(uuid "bf539624-f2c4-4c61-b40d-fb17cb991531")
 	)
-	(label "SDA_I2C"
-		(at 163.83 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d15197c8-9ec9-465c-9b6e-a390d99d25b3")
-	)
 	(label "Flash WP"
 		(at 90.17 113.03 0)
 		(effects
@@ -4163,6 +4143,16 @@
 			(justify left bottom)
 		)
 		(uuid "d9f86e5e-48a0-4e05-b435-ad3d0a6ed530")
+	)
+	(label "I2C_SCL"
+		(at 163.83 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dad60ce0-f5b0-49a8-bb13-358dfd9f8bb4")
 	)
 	(label "Flash HD"
 		(at 90.17 110.49 0)
@@ -4193,6 +4183,16 @@
 			(justify right bottom)
 		)
 		(uuid "df296d16-9742-482a-9bee-b91e08764b19")
+	)
+	(label "I2C_SDA"
+		(at 163.83 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e147a715-5930-462a-b95a-1681cc97d4a3")
 	)
 	(label "SDA_I2S"
 		(at 163.83 92.71 180)
