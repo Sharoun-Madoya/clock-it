@@ -7726,7 +7726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b51deeb-a556-402c-8603-4c268344d71a")
-		(property "Reference" "C37"
+		(property "Reference" "C101"
 			(at 345.44 212.0899 0)
 			(effects
 				(font
@@ -7780,7 +7780,7 @@
 		(instances
 			(project "CLOCK_IT"
 				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
-					(reference "C37")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -7861,10 +7861,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0f09d224-c32e-4c4b-b779-2fe00d51044c")
-		(property "Reference" "C38"
-			(at 327.66 212.0899 0)
+		(property "Reference" "C100"
+			(at 327.66 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +7916,7 @@
 		(instances
 			(project "CLOCK_IT"
 				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
-					(reference "C38")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -7933,22 +7932,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16103983-3000-434e-b866-b3d27c690d54")
-		(property "Reference" "C38"
-			(at 240.03 201.9301 0)
+		(property "Reference" "C102"
+			(at 247.65 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "12pF"
-			(at 240.03 199.3901 0)
+			(at 247.65 201.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
@@ -7987,7 +7986,7 @@
 		(instances
 			(project "CLOCK_IT"
 				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
-					(reference "C38")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -13005,22 +13004,22 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8f14bbc-b861-4e29-a16f-94de0c769274")
-		(property "Reference" "C37"
-			(at 223.52 201.9301 0)
+		(property "Reference" "C103"
+			(at 231.14 199.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "12pF"
-			(at 223.52 199.3901 0)
+			(at 231.14 201.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
@@ -13059,7 +13058,7 @@
 		(instances
 			(project "CLOCK_IT"
 				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/89057fe9-a1d2-4b06-95ab-71c40c05c07f"
-					(reference "C37")
+					(reference "C103")
 					(unit 1)
 				)
 			)
