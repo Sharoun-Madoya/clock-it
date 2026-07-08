@@ -8292,8 +8292,8 @@
 				)
 			)
 		)
-		(property "Value" "1uF/6.3V"
-			(at 121.412 40.64 90)
+		(property "Value" "1uF"
+			(at 123.952 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10421,7 +10421,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "470R"
 			(at 132.08 34.29 90)
 			(effects
 				(font
