@@ -3646,6 +3646,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 130.81) (xy 154.94 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8415fd3-3435-45b3-a0b6-332113b5822a")
+	)
+	(wire
+		(pts
 			(xy 100.33 181.61) (xy 105.41 181.61)
 		)
 		(stroke
@@ -3864,6 +3874,16 @@
 		)
 		(uuid "167100ff-8f28-4d58-adff-824c7c410ada")
 	)
+	(label "USB_DP"
+		(at 162.56 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "194118e3-204b-468b-a5d4-2cc0daa2693d")
+	)
 	(label "Flash D"
 		(at 92.71 125.73 0)
 		(effects
@@ -3913,16 +3933,6 @@
 			(justify left bottom)
 		)
 		(uuid "4c28f2e6-a52f-4389-9ef9-fbc8985caeed")
-	)
-	(label "USB_D+"
-		(at 162.56 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4c7b7cab-a356-48b3-b68d-a1e55a7d81a8")
 	)
 	(label "XTAL_N"
 		(at 21.59 29.21 0)
@@ -4253,6 +4263,28 @@
 			(justify left bottom)
 		)
 		(uuid "fe3dff60-fd61-433f-8d36-90beb4838fac")
+	)
+	(hierarchical_label "USB_DN"
+		(shape input)
+		(at 162.56 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43fdcb94-56e2-4d85-9ff9-c2990637c031")
+	)
+	(hierarchical_label "USB_DP"
+		(shape input)
+		(at 162.56 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8924b0cd-5eeb-42e4-8364-428a1f35028c")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -6666,6 +6698,72 @@
 			(project "CLOCK_IT"
 				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/25a0942f-4692-4437-8e26-71d966c353a5"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f22395b-739e-4569-bfe4-c0c566d107bb")
+		(property "Reference" "#PWR078"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7d00cb0-d5c1-42da-b381-d494fe271bf2")
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/25a0942f-4692-4437-8e26-71d966c353a5"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
