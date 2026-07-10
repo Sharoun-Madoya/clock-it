@@ -2043,6 +2043,154 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "HX 3x4x2-2P-1.6N TACTILE SWITCH:HX3X4X2-2P-1.6NTACTILESWITCH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HX 3X4X2-2P-1.6N TACTILE SWITCH"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C49234124.pdf"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "hanxia(韩下)"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "HX 3x4x2-2P-1.6N TACTILE SWITCH"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C49234124"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "HX3X4X2-2P-1.6NTACTILESWITCH_0_1"
+				(circle
+					(center -2.03 -1.27)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.03 0.25) (xy -2.03 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.03 -1.27)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "W25Q128JVSIQ:W25Q128JVSIQ"
 			(pin_names
 				(offset 1.016)
@@ -2757,6 +2905,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdae377c-4dfe-4c6b-89bf-1ba6ad8af663")
+	)
+	(junction
+		(at 88.9 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df77cadc-2d07-437e-bee7-d91d5c2c7f19")
 	)
 	(junction
 		(at 229.87 91.44)
@@ -3944,6 +4098,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 57.15) (xy 73.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49d4fa4-7da9-4881-b7d6-e968e540b2cc")
+	)
+	(wire
+		(pts
 			(xy 90.17 110.49) (xy 101.6 110.49)
 		)
 		(stroke
@@ -4084,6 +4248,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 57.15) (xy 88.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2ac03fc-db51-4e8a-92d3-2c2371269ee2")
+	)
+	(wire
+		(pts
 			(xy 209.55 52.07) (xy 208.28 52.07)
 		)
 		(stroke
@@ -4101,6 +4275,16 @@
 			(type default)
 		)
 		(uuid "f6ec1883-44e8-42fd-ad3d-f1caecbe294c")
+	)
+	(wire
+		(pts
+			(xy 67.31 58.42) (xy 67.31 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76b94a6-227c-47b4-96ea-400c3d2795c1")
 	)
 	(wire
 		(pts
@@ -4823,6 +5007,101 @@
 			(project "mcu"
 				(path "/e7722df7-4cc6-4129-a8b2-422f95434f02"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HX 3x4x2-2P-1.6N TACTILE SWITCH:HX3X4X2-2P-1.6NTACTILESWITCH")
+		(at 78.74 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12c4c486-e22d-464b-9ba4-7173cabee4b2")
+		(property "Reference" "SW2"
+			(at 78.74 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX 3X4X2-2P-1.6N TACTILE SWITCH"
+			(at 78.74 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:KEY-SMD_L4.0-W3.0-LS4.9-1"
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49234124.pdf"
+			(at 78.74 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 78.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HX 3x4x2-2P-1.6N TACTILE SWITCH"
+			(at 78.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49234124"
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "945eeba2-7e2a-4424-a7cc-5dbef8e8bd25")
+		)
+		(pin "2"
+			(uuid "46ce8726-7ab4-4c8c-92da-7f3e8c74012d")
+		)
+		(instances
+			(project ""
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/25a0942f-4692-4437-8e26-71d966c353a5"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7021,6 +7300,72 @@
 			(project "mcu"
 				(path "/e7722df7-4cc6-4129-a8b2-422f95434f02"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8151cfcb-c9dc-4c2f-8c12-3f388c6155fc")
+		(property "Reference" "#PWR082"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b39019f-dc00-47d0-9b18-7259081994d6")
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9/25a0942f-4692-4437-8e26-71d966c353a5"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
