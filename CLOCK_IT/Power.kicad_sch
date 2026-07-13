@@ -6071,6 +6071,28 @@
 		)
 		(uuid "ecaf8e8b-170c-4209-8ccd-ed3fc9a4ee8d")
 	)
+	(hierarchical_label "AXP_SCL"
+		(shape input)
+		(at 207.01 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7b594911-a33a-4651-9975-abd80f215ec6")
+	)
+	(hierarchical_label "RTC_SCL"
+		(shape input)
+		(at 297.18 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ce5ae15-0f04-4292-bbf5-7dd6bbda0579")
+	)
 	(hierarchical_label "USB_DN"
 		(shape input)
 		(at 66.04 198.12 180)
@@ -6081,6 +6103,28 @@
 			(justify right)
 		)
 		(uuid "9df70723-0b20-4e12-8025-eb770985fc18")
+	)
+	(hierarchical_label "RTC_SDA"
+		(shape input)
+		(at 297.18 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2bdbe19-7fbb-456e-8ce5-94806073dc4c")
+	)
+	(hierarchical_label "AXP_SDA"
+		(shape input)
+		(at 207.01 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c771d6d8-17b4-4cbc-ad8c-5ab42b1b4c0b")
 	)
 	(hierarchical_label "USB_DP"
 		(shape input)
