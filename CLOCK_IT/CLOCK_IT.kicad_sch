@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 39.37 80.01)
+		(size 34.29 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90cdf982-414a-4604-b755-9cae70ac8625")
+		(property "Sheetname" "Display"
+			(at 39.37 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 39.37 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 100.33 31.75)
 		(size 26.67 25.4)
 		(exclude_from_sim no)
