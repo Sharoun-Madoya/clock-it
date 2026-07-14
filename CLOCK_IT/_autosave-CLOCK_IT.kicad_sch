@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6c8f4e2a-0be1-4eb1-92e1-07339040f4c9")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 39.37 31.75)
+		(size 27.94 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25a0942f-4692-4437-8e26-71d966c353a5")
+		(property "Sheetname" "MCU"
+			(at 39.37 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 39.37 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 29.21)
+		(size 46.99 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89057fe9-a1d2-4b06-95ab-71c40c05c07f")
+		(property "Sheetname" "Power"
+			(at 162.56 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 162.56 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 80.01)
+		(size 34.29 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90cdf982-414a-4604-b755-9cae70ac8625")
+		(property "Sheetname" "Display"
+			(at 39.37 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display.kicad_sch"
+			(at 39.37 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 31.75)
+		(size 26.67 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c43dbd9d-2d14-4c14-969a-6780f09f4994")
+		(property "Sheetname" "SD card"
+			(at 100.33 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SD.kicad_sch"
+			(at 100.33 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CLOCK_IT"
+				(path "/6c8f4e2a-0be1-4eb1-92e1-07339040f4c9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
