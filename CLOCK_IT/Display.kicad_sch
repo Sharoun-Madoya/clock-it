@@ -5,4 +5,81 @@
 	(uuid "bdbdb676-a1b8-47cc-84d4-90162182e686")
 	(paper "A4")
 	(lib_symbols)
+	(hierarchical_label "SPICLK"
+		(shape input)
+		(at 205.74 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f5f493c-52a9-477b-b429-262d42568a29")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 205.74 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a4ef20c-1b4c-48cb-8a6f-69b8999c7858")
+	)
+	(hierarchical_label "LCD_RST"
+		(shape input)
+		(at 208.28 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6735a440-8185-44f8-8f1c-9b58673fc8d8")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape input)
+		(at 205.74 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "742daff3-304c-4de2-b30b-e3d7aa832185")
+	)
+	(hierarchical_label "LCD_CS"
+		(shape input)
+		(at 205.74 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4d3f219-9478-4837-8448-0a9ad80bf8b1")
+	)
+	(hierarchical_label "LCD_LED"
+		(shape input)
+		(at 205.74 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b562281c-c8ff-4040-80ba-fda2a615c6e9")
+	)
+	(hierarchical_label "LCD_Data"
+		(shape input)
+		(at 205.74 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f832715b-0994-4146-b7c7-17a5fb944a1c")
+	)
 )

@@ -3712,6 +3712,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 77.47) (xy 163.83 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367485c8-5c23-4980-bebd-4caac6e0d3ca")
+	)
+	(wire
+		(pts
 			(xy 205.74 114.3) (xy 213.36 114.3)
 		)
 		(stroke
@@ -4632,6 +4642,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 80.01) (xy 163.83 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4934fb3-38b1-4694-bb6e-0a934e99153c")
+	)
+	(wire
+		(pts
 			(xy 176.53 52.07) (xy 176.53 49.53)
 		)
 		(stroke
@@ -4872,6 +4892,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 82.55) (xy 163.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3ac2b6-b003-49ff-b743-2bb59ba3126c")
+	)
+	(wire
+		(pts
 			(xy 157.48 39.37) (xy 157.48 41.91)
 		)
 		(stroke
@@ -4949,6 +4979,16 @@
 			(type default)
 		)
 		(uuid "ee223486-6f71-4547-9e2c-7e203bbd9d9a")
+	)
+	(wire
+		(pts
+			(xy 152.4 120.65) (xy 162.56 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7541ad-5a71-4860-b9d6-5534caf589f1")
 	)
 	(wire
 		(pts
@@ -5171,14 +5211,14 @@
 		(uuid "23ad6328-8e68-4d2d-af40-fa085238a5ba")
 	)
 	(label "Cam_D6"
-		(at 92.71 74.93 0)
+		(at 162.56 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "4c28f2e6-a52f-4389-9ef9-fbc8985caeed")
+		(uuid "4cb4256a-f3af-4b64-9e21-e3b1f78def05")
 	)
 	(label "XTAL_N"
 		(at 21.59 29.21 0)
@@ -5260,7 +5300,7 @@
 		)
 		(uuid "6e803da5-57fb-4b79-8a4d-b2babd1b362c")
 	)
-	(label "USB_D-"
+	(label "USB_DN"
 		(at 162.56 100.33 180)
 		(effects
 			(font
@@ -5551,6 +5591,17 @@
 		)
 		(uuid "09bf7ed7-23f9-489e-b3fc-e2b453e318df")
 	)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 162.56 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a212492-8b6d-47cb-90be-557f450b5f99")
+	)
 	(hierarchical_label "USB_DN"
 		(shape input)
 		(at 162.56 100.33 0)
@@ -5561,6 +5612,17 @@
 			(justify left)
 		)
 		(uuid "43fdcb94-56e2-4d85-9ff9-c2990637c031")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape input)
+		(at 162.56 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "475cf6df-0aba-46e6-86f4-3d2dddf61c41")
 	)
 	(hierarchical_label "AXP_SCL"
 		(shape input)
@@ -5573,6 +5635,28 @@
 		)
 		(uuid "4fb3a52e-28bd-4a36-b79f-cc77258a629e")
 	)
+	(hierarchical_label "LCD_CS"
+		(shape input)
+		(at 163.83 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69bac89f-3f71-4cc6-9947-86c7cb8207c0")
+	)
+	(hierarchical_label "LCD_RST"
+		(shape input)
+		(at 163.83 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81dcc2b8-8f80-49c5-a123-4fef512b5f07")
+	)
 	(hierarchical_label "USB_DP"
 		(shape input)
 		(at 162.56 102.87 0)
@@ -5583,6 +5667,17 @@
 			(justify left)
 		)
 		(uuid "8924b0cd-5eeb-42e4-8364-428a1f35028c")
+	)
+	(hierarchical_label "LCD_Data"
+		(shape input)
+		(at 163.83 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f6d5fe8-15bc-4270-9cc1-8de3b7c09876")
 	)
 	(hierarchical_label "RTC_SCL"
 		(shape input)
@@ -5605,6 +5700,28 @@
 			(justify left)
 		)
 		(uuid "ae4a1646-ea5c-459f-9980-0f49a567b973")
+	)
+	(hierarchical_label "LCD_LED"
+		(shape input)
+		(at 92.71 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b22f90fe-86a6-4005-a89b-5db844bb4b15")
+	)
+	(hierarchical_label "SPICLK"
+		(shape input)
+		(at 162.56 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d28e0b51-0b0a-4895-936c-0f4e338e4d12")
 	)
 	(hierarchical_label "CAM_SCL"
 		(shape input)
