@@ -3922,6 +3922,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b887537-4c0c-4d51-857b-1e1c946bb1f1")
+	)
+	(wire
+		(pts
 			(xy 213.36 139.7) (xy 205.74 139.7)
 		)
 		(stroke
@@ -4932,6 +4942,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 69.85) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a045f1-c243-407b-895a-b68963f0fffe")
+	)
+	(wire
+		(pts
 			(xy 87.63 142.24) (xy 100.33 142.24)
 		)
 		(stroke
@@ -5580,6 +5600,17 @@
 		)
 		(uuid "fe3dff60-fd61-433f-8d36-90beb4838fac")
 	)
+	(hierarchical_label "SD_CS"
+		(shape input)
+		(at 176.53 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "059738d2-8aa7-404d-ade4-3b17ecdc2269")
+	)
 	(hierarchical_label "AXP_SDA"
 		(shape input)
 		(at 241.3 129.54 0)
@@ -5646,6 +5677,17 @@
 		)
 		(uuid "69bac89f-3f71-4cc6-9947-86c7cb8207c0")
 	)
+	(hierarchical_label "TF_CS"
+		(shape input)
+		(at 176.53 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c515024-da35-4486-a08d-26ad5c4f0297")
+	)
 	(hierarchical_label "LCD_RST"
 		(shape input)
 		(at 163.83 82.55 0)
@@ -5678,6 +5720,17 @@
 			(justify left)
 		)
 		(uuid "8f6d5fe8-15bc-4270-9cc1-8de3b7c09876")
+	)
+	(hierarchical_label "Touch_IRQ"
+		(shape input)
+		(at 165.1 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a070c83f-3cda-4217-800a-ea725a0cbf41")
 	)
 	(hierarchical_label "RTC_SCL"
 		(shape input)
@@ -5722,6 +5775,17 @@
 			(justify left)
 		)
 		(uuid "d28e0b51-0b0a-4895-936c-0f4e338e4d12")
+	)
+	(hierarchical_label "Touch_CS"
+		(shape input)
+		(at 165.1 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f36515a8-67c1-4371-8f39-8802bd81a3f5")
 	)
 	(hierarchical_label "CAM_SCL"
 		(shape input)
